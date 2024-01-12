@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task-2</title>
+    <style>
+        .searchbar input{
+            width: 100%;
+            height: 30px;
+        }
+        .middle{
+            width: 60%;
+            height: 30px;
+        }
+        .bottom{ 
+            margin-top: 20px;
+            width: 60%;
+            height: 300px;
+            margin:  0px, 20px;
+        }
+        select {
+            margin-left: 10px;
+            width: 20%;
+            height: 30px;
+        }
+        .zz {
+            margin-top: 30px;
+            flex-direction: row;
+        }
+         .zz a{
+            text-decoration: none;
+            color: blue;
+            padding: 10px;
+            margin-left: 60%;
+            
+         }
+    </style>
+</head>
+<body>
+    <div class="template">
+        <div class="searchbar">
+            <input type="text" class="top" placeholder="search notes" disabled>
+        </div>
+        <div class="box">
+            <p><big>ADD NOTE</big></p><hr>
+        </div>
+        <div>
+         <input type="text" class="middle" placeholder="add title...." disabled>
+           <select><option>selet category</option></select><br>
+        </div>
+        <div>
+            <input type="text" class="bottom" value="add description..." disabled>
+        </div>
+        <div class="zz">
+            <a href="#"><strong>cancel</strong></a>
+            <a href="#"><strong>add</strong></a>
+        </div>
+    </div>
+</body>
+</html>
