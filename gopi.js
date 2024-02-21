@@ -8,7 +8,6 @@ console.log(input1 * 29);
 let result1 = 232;
 if (result1 > 100000){
     console.log("result1 is greater than 1 lakh");
-
 console.log(input2 * 25);
 }
 else {
